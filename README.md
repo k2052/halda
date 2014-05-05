@@ -1,4 +1,5 @@
-halda
-=====
+[![Build Status](https://travis-ci.org/k2052/halda.svg?branch=master)](https://travis-ci.org/k2052/halda)
 
-a bookmarking / design inspiration collecting app
+# Halda
+
+A bookmarking / design inspiration collecting app
