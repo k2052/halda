@@ -1,5 +1,5 @@
 How is are layout algorithim for the Firehose going to work?
-Hottee items should be the biggest.
+Hottest items should be the biggest.
 
 Hottest item should take on full width of the grid.
 
@@ -37,3 +37,19 @@ clicking save for later fills the area with grid of collections.
 collections have an image and a title little descripion. count of items in it. like github explore grid items
 collection image can be set but defaults to first item and if there is no item to a nice pattern image sourced
 from subtle patterns or something
+
+## Design
+
+App is split up into two main parts. Info/Landing/About pages and then the App.
+
+The landing page is your classic landing page info on the left call to action the right.
+THen list of benefits with screenshots. Sign in is handled uisng services no user/pass for now
+
+The app is designed like a desktop app (but data can be preloaded.).
+Search and nav on the left content on the right.
+
+Two main areas Collections and Discover.
+Discover shows a firehose of 10 items.
+
+This split function could be a bit confusing but is a great way to split up development
+App part can be entirely prototyped separately.
